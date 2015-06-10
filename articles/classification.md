@@ -11,10 +11,10 @@ The point of classification is to take a large number of observations and **grou
 
 Classification matters because how we group our data into classes is one of the most fundamental aspects of map generalization-the process by which we simplify the real world to fit it on to the page-and small differences in how we do that **can dramatically change the look of the map, and thus, its message**. Despite this influence, data classification is often taken for granted by map readers since we rarely notice or question the classes that are used in maps, and thus, it is one of the easiest ways to "[lie with maps](http://www.amazon.com/How-Lie-Maps-Mark-Monmonier/dp/0226534219)"-whether intentionally or accidentally. Nonetheless, classification is a useful and basic part of making thematic maps and with indiemapper doing the heavy lifting for you, it has never been easier.
 
-![](/images/classed_choropleth.jpg)
+![](../images/classed_choropleth.jpg)
 _This map uses a 5-class equal interval classification scheme (1-10, 11-20, ...)._
 
-**NOTE:** This discussion applies to anyone making [Choropleth Maps](/articles/choropleth.html, [Graduated Symbol Maps](/articles/proportional_symbols.html) or [Cartograms](/articles/cartogram.html) since you can make either classed or unclassed versions of those maps.
+**NOTE:** This discussion applies to anyone making [Choropleth Maps](../articles/choropleth.html, [Graduated Symbol Maps](../articles/proportional_symbols.html) or [Cartograms](../articles/cartogram.html) since you can make either classed or unclassed versions of those maps.
 
 **The Goal of Data Classification**
 
@@ -30,7 +30,7 @@ The more classes you use, the less data generalization (which is good), but this
 
 Not sure how many classes to use? Have a look at the distribution of your data in the histogram (see example below): Are there obvious clusters within your data? Are there large gaps in your data range that suggest nice compact data classes? If so, pick that number of classes and place those class breaks manually around those clusters (again, using the histogram).
 
-![](/images/histogram_colored.png)
+![](../images/histogram_colored.png)
 _The histogram, showing a nice bell-shaped curve here, tells us how many
  observations (e.g., counties) are in each class, which corresponds to the colors on the map._
 
@@ -38,7 +38,7 @@ _The histogram, showing a nice bell-shaped curve here, tells us how many
 
 Just as there is no single correct number of classes, there is no single best way to classify you data into ranges. Look at the histogram (or scatterplot) to determine the 'form' of your observations. Above all else the goal of data classification is to put places with similar rates in the same class, and separate places with very different rates into different classes.
 
-![](/images/histogram_examples.png)
+![](../images/histogram_examples.png)
 _The form of this histogram suggests that 3 or 4 data classes seem most appropriate.
  Lacking any other insight, the "dips/gaps" suggest natural places to break the data._
 
@@ -48,7 +48,7 @@ _The form of this histogram suggests that 3 or 4 data classes seem most appropri
 > 
 > **NATURAL BREAKS** is a kind of "optimal" classification scheme that finds class breaks that (for a given number of classes) will minimize within-class variance and maximize between-class differences. One drawback of this approach is each dataset generates a unique classification solution, and if you need to make comparison across maps, such as in an atlas or a series (e.g., one map each for 1980, 1990, 2000) you might want to use a single scheme that can be applied across all of the maps.
 > 
-> ![](/images/histogram_pulldown.png)
+> ![](../images/histogram_pulldown.png)
 > _You are free to manually adjust the class breaks in indiemapper using the histogram carets._
 > 
 > **MANUAL** There are many times we need to manually set one or all of the class breaks. For example; Are there important break points that need to be "hardwired" into your class breaks? Does one of the class breaks need to be the mean? Is this map part of a series that needs the same classes across all of the maps (so that the colors always refer to the same numbers on any map)? Do any of the other methods get you close to a good solution that could be improved with a few slight adjustments those classes? If so, do not hesitate to set these class breaks yourself in manual mode.
