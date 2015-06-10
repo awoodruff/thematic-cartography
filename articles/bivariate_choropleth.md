@@ -5,7 +5,7 @@ title: Bivariate Choropleth
 
 ### When to Use
 
-Bivariate choropleth maps combine two datasets (usually numerical data) into a single map allowing us to show relatively how much of X (variable 1) and Y (variable 2) exist in each enumeration unit. They inherent many of the same strengths and weaknesses as univariate choropleth maps, which are outlined [here](/articles/choropleth.html. Like all bivariate maps, these maps encode two numbers/facts per location and are, therefore, graphically efficient.
+Bivariate choropleth maps combine two datasets (usually numerical data) into a single map allowing us to show relatively how much of X (variable 1) and Y (variable 2) exist in each enumeration unit. They inherent many of the same strengths and weaknesses as univariate choropleth maps, which are outlined [here](../articles/choropleth.html. Like all bivariate maps, these maps encode two numbers/facts per location and are, therefore, graphically efficient.
 
 ### Concerns
 
@@ -13,11 +13,11 @@ All other things being equal, bivariate choropleth maps are more difficult to re
 
 ### Example Map
 
-This is a 3-class x 3-class bivariate choropleth map that uses a diverging x diverging scheme (more here about [color schemes](/articles/color_schemes.html). Below that is the interactive map scatterplot which is used for seeing the distribution of your data in indiemapper and allows you to see the numerical distribution of your observations and make informed decisions about how to best classify your data (more here about [data classification](/articles/classification.html). Note, the same classification scheme is automatically applied to both datasets (axes), although you can override this by manually changing the break points yourself (the blue triangles).
+This is a 3-class x 3-class bivariate choropleth map that uses a diverging x diverging scheme (more here about [color schemes](../articles/color_schemes.html). Below that is the interactive map scatterplot which is used for seeing the distribution of your data in indiemapper and allows you to see the numerical distribution of your observations and make informed decisions about how to best classify your data (more here about [data classification](../articles/classification.html). Note, the same classification scheme is automatically applied to both datasets (axes), although you can override this by manually changing the break points yourself (the blue triangles).
 
-![](/images/bivariate_choroMAP.jpg)
+![](../images/bivariate_choroMAP.jpg)
 
-![](/images/bivariate_classed_scatter.png)
+![](../images/bivariate_classed_scatter.png)
 
 Each one of the white dots in the scatterplot is an entry in your data and also a location on the map, in this case, US states. You can also click on the map to retrieve specific data for each location (Wisconsin is highlighted above). The colors in the scatterplot are the same as the colors on the map and let us know how many dots/states are in each of the 9 data classes. For example, there is only one state colored pink on the map, Wyoming, which is also the only dot in the pink portion of the scatterplot. By changing the classification and where the break points are placed, you alter the look of the map (be sure to try this!). This kind of real-time visual editing is designed to help you quickly find the right look for your map.
 
@@ -27,6 +27,6 @@ There are two kinds of bivariate choropleth color schemes: **diverging x divergi
 
 Diverging schemes, whether for a single-theme map or a bivariate map, should only be used if there is a meaningful midpoint and you want to highlight how places _diverge_ away from that break point. For example, a map with both positive and negative numbers could place zero as the middle class (or break point), making it easier to see places that are going up or down. Another example would be 50% of the vote in a 2-party election: colors would get darker/stronger in both directions are we move away from that natural break point of 50% (a tied vote).
 
-![](/images/seqxseq.png)![](/images/divxdiv.png)
+![](../images/seqxseq.png)![](../images/divxdiv.png)
 
-For more information about color schemes in indiemapper, [go here](/articles/color_schemes.html.
+For more information about color schemes in indiemapper, [go here](../articles/color_schemes.html.

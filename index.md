@@ -8,26 +8,26 @@ This help system is not meant as a replacement for a full textbook on cartograph
 
 **General Map Making Topics**
 
-*   [Level of Measurement: Nominal, Ordinal, and Numerical Data](/articles/level_of_measurement.html)
-*   [Standardizing Data](/articles/standardize.html)
-*   [The Basics of Data Classification](/articles/classification.html)
-*   [Labeling and Text in Cartography](/articles/labeling.html)
-*   [Using Colors on Thematic Maps](/articles/color_schemes.html)
-*   [Univariate Maps _versus_ Multivariate Maps](/articles/multivariate.html)
+*   [Level of Measurement: Nominal, Ordinal, and Numerical Data](articles/level_of_measurement.html)
+*   [Standardizing Data](articles/standardize.html)
+*   [The Basics of Data Classification](articles/classification.html)
+*   [Labeling and Text in Cartography](articles/labeling.html)
+*   [Using Colors on Thematic Maps](articles/color_schemes.html)
+*   [Univariate Maps _versus_ Multivariate Maps](articles/multivariate.html)
 
 **Univariate Thematic Map Types**
 
-*   [Choropleth Maps](/articles/choropleth.html)
-*   [Proportional and Graduated Symbol Maps](/articles/proportional_symbols.html)
-*   [Dot Density Maps](/articles/dot_density.html)
-*   [Non-Contiguous Cartograms](/articles/cartograms.html)
+*   [Choropleth Maps](articles/choropleth.html)
+*   [Proportional and Graduated Symbol Maps](articles/proportional_symbols.html)
+*   [Dot Density Maps](articles/dot_density.html)
+*   [Non-Contiguous Cartograms](articles/cartograms.html)
 
 **Multivariate Thematic Map Types**
 
-*   [Bivariate Choropleth](/articles/bivariate_choropleth.html)
-*   [Bivariate Cartogram](/articles/bivariate_cartograms.html)
-*   [Bivariate Proportional Symbols](/articles/bivariate_proportional.html)
-*   [Value by Alpha](/articles/value_by_alpha.html)
+*   [Bivariate Choropleth](articles/bivariate_choropleth.html)
+*   [Bivariate Cartogram](articles/bivariate_cartograms.html)
+*   [Bivariate Proportional Symbols](articles/bivariate_proportional.html)
+*   [Value by Alpha](articles/value_by_alpha.html)
 *   [Proportional Labels](proportional_labels.html) (2 variables)
 *   [Colored Proportional Labels](trivariate_labels.html) (3 variables)
 

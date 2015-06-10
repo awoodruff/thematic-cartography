@@ -11,7 +11,7 @@ Dot density maps are a simple yet highly effective way to show density differenc
 
 ### Reasons Why We Like Them
 
-There are at least three big advantages of dot density maps over [choropleth maps](/articles/choropleth.html: (1) on a dot density map you can map _raw data / simple counts_ (e.g., number of farms) or _rates and ratios_ (e.g., number of farms per sq kilometer); (2) your data need not be tied to enumeration units and hence some of the concerns inherent in choropleth maps can be side-stepped with dot density maps (unless, of course, your data are reported by enumeration units-in which case you're probably stuck with them); and (3) dot density maps work fine in black and white, when color isn't an option.
+There are at least three big advantages of dot density maps over [choropleth maps](../articles/choropleth.html: (1) on a dot density map you can map _raw data / simple counts_ (e.g., number of farms) or _rates and ratios_ (e.g., number of farms per sq kilometer); (2) your data need not be tied to enumeration units and hence some of the concerns inherent in choropleth maps can be side-stepped with dot density maps (unless, of course, your data are reported by enumeration units-in which case you're probably stuck with them); and (3) dot density maps work fine in black and white, when color isn't an option.
 
 Example datasets appropriate for dot density maps:
 
@@ -24,13 +24,13 @@ Example datasets appropriate for dot density maps:
 
 Here is a dot density map that shows the number of sheep in New Zealand (by province). From this map, we can see sheep are generally found throughout NZ, but that there are more sheep raised on the eastern side of the islands than the western side.
 
-![](/images/dotDensity_NZsheep_65.jpg)
+![](../images/dotDensity_NZsheep_65.jpg)
 
 ### Limitations
 
 While the versatility and easy-to-grasp nature of dot density maps is appealing, they have one fundamental drawback: they're terrible for retrieving rates or numbers from the map. For example, few people will have the time or interest in counting hundreds (or thousands) or dots in order to know the precise number of sheep in New Zealand (above). They'll likely know that some places have "more" sheep than others, but they won't know necessarily by how much. To help with this problem, you can add numbers directly on the map or provide a table to accompany the map.
 
-_**Not sure you should use a dot density map?**_ Potential alternatives in indiemapper include [choropleth](/articles/choropleth.html) maps (if your data can be standardized and are attached to enumeration units), [graduated/proportional symbol](/articles/proportional_symbols.html) maps, and [cartograms](/articles/cartogram.html.
+_**Not sure you should use a dot density map?**_ Potential alternatives in indiemapper include [choropleth](../articles/choropleth.html) maps (if your data can be standardized and are attached to enumeration units), [graduated/proportional symbol](../articles/proportional_symbols.html) maps, and [cartograms](../articles/cartogram.html.
 
 ### Dot Size and Dot Value
 
