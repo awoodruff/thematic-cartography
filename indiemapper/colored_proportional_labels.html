@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta http-equiv="Content-Lanquge" content="en-us" />
+		<meta name="Description" content="" />
+		<meta name="Keywords" content="" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
+		<script type="text/javascript">  
+			if (typeof jQuery === 'undefined'){
+     			document.write('<script type="text/javascript" src="/com/js/jquery-1.4.2.min.js"><\/script>');
+     		}
+		</script>
+		<script type="text/javascript" src="../com/js/learnmore.js"></script>
+			<title>Colored Proportional Label Maps - indiemapper.com</title>
+	</head>
+	<body style="background-color:white; width:auto; margin:20px 25px">
+		<p>
+			<img src="http://indiemapper.com/app/images/colored_labels.png" width="654" height="42">
+		</p>
+		<p>
+			<strong>When to Use<br></strong>Colored proportional labels combine three datasets into a single compound map symbol: The text denotes one data set, the size of those characters denotes the second, and the color of the text denotes the third. While the first dataset can be any number, category, or name, the second (size) and third (color) datasets must be numerical data or ordinal data prepared as simple numerical ranks (1, 2, 3, ...); numbers are required to do the "scaling" of the text and ordering of the colors. We support both <a href="http://indiemapper.com/app/learnmore.php?l=classification" target="_blank">classed and unclassed</a> colored proportional labels so that there can be a fixed number of sizes and colors (we recommend 3-8 classes), or you can map raw data directly to those symbols. For more information about the pros and cons of using classed versus unclassed approaches to mapping, see the discussion <a href="http://indiemapper.com/app/learnmore.php?l=choropleth" target="_blank">here</a>.
+		</p>
+		<p>
+			Colored proportional symbols allow us to show a lot of data in a fairly compact map symbol that remains easy to read: for example, readers could quickly find all the large red numbers to know that those places share two properties and then evaluate how they compare on the third (the actual number seen).
+		</p>
+		<p>
+			<strong>Concerns<br></strong>These maps inherent the problems of any <a href="http://indiemapper.com/app/learnmore.php?l=proportional_symbols" target="_blank">graduated / proportional map</a>, namely that folks aren't very good at estimating sizes of map symbols, especially on complex maps with many map symbols. Also, because colored proportional label maps use complex shapes (letters and numbers) and not simple shapes (circles, squares) there is reason to believe that our ability to accurately compare and rank symbol sizes will be further impaired. This, then, argues for using only a few distinct symbol sizes, in other words, classed data. In the example map below (and the panel) there are five sizes of labels, each noticeably different from the others, and it is unlikely folks would think Colombia and Panama are in the same size class. This is not to rule out the value of an unclassed proportional label maps (aka "continuous direct scaling"), but to say that small size differences are not as easily seen.<br>
+		</p>
+		<p>
+			<strong>Example Map</strong><br>
+			In the example below, the numbers tell us the birth rates of the countries (# of births per 1000 people), the size of the numbers tells us about the average life expectancy of those countries (in years, using five classes), and the colors tell us about education expenditures as a % of GDP. So, for example, we know that the light yellow countries spend the same, roughly, on education, but have very different birth rates and life expetencies.The ability to explore these kinds of complex relationships on a single map is the appeal of multivariate mapping.
+		</p>
+		<p>
+			<img src="http://indiemapper.com/app/images/trivariate_labels.png" width="650" height="384">
+		</p>
+		<p>
+			&nbsp;
+		</p>
+		<hr size="1" noshade>
+		<p>
+			<strong>FURTHER READING</strong>
+		</p>
+		<blockquote>
+			<p>
+				<a href="http://indiemapper.com/app/learnmore.php?l=index">"learn more" Table of Contents</a>
+			</p>
+			<p>
+				<a href="http://getsatisfaction.com/axismaps" target="_blank">indiemapper help</a>
+			</p>
+		</blockquote>
+		<hr size="1" noshade>
+		<p>
+			copyright 2009-2010 Axis Maps LLC. All rights reserved.<br>
+			The material on this site may not be reproduced, distributed, transmitted, or otherwise used, except with the prior permission of <a href="http://axismaps.com" target="_blank">Axis Maps LLC</a>.<br>
+		</p>
+	</body></html>

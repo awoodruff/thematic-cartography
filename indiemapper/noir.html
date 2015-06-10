@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta http-equiv="Content-Lanquge" content="en-us" />
+		<meta name="Description" content="" />
+		<meta name="Keywords" content="" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
+		<script type="text/javascript">  
+			if (typeof jQuery === 'undefined'){
+     			document.write('<script type="text/javascript" src="/com/js/jquery-1.4.2.min.js"><\/script>');
+     		}
+		</script>
+		<script type="text/javascript" src="../com/js/learnmore.js"></script>
+			<title>Level of Measurement - indiemapper.com</title>
+	</head>
+	<body style="background-color:white; width:auto; margin:20px 25px">
+		<p>
+			<img src="http://indiemapper.com/app/images/NOIR.jpg" width="654" height="42">
+		</p>
+		<p>
+			<strong>Know Your Data<br></strong>The success of many thematic maps depends on matching the right data with the right kinds of map symbols. In other words, not all geographic data are the same, nor can they all be mapped in the same way. For example, an <a href="http://indiemapper.com/app/learnmore.php?l=cartogram" target="_blank">area cartogram</a> works great for things like <em>population totals</em> or <em>life expectancy</em> (which are numbers), but it doesn't work with categorical data, especially if those categories are inherently unorderable, such as <em>dominant religion</em> or <em>soil types</em>, since no category there is inherently "more" than one another, they're just different kinds of things. Area cartograms need numbers in order to scale the sizes of places; without numbers, there is nothing drive the map symbols. The same is true with <a href="http://indiemapper.com/app/learnmore.php?l=proportional_symbols" target="_blank">graduated symbol maps</a>, <a href="http://indiemapper.com/app/learnmore.php?l=choropleth" target="_blank">choropleth maps</a>, and <a href="http://indiemapper.com/app/learnmore.php?l=dot_density" target="_blank">dot density maps</a>.
+		</p>
+		<p>
+			What follows is a brief overview of the concept of "level of measurement". For more detailed discussion about each of the map types themselves&ndash;and what kinds of data they support&ndash;follow the appropriate links.
+		</p>
+		<p>
+			<strong>Level of Measurement</strong>
+		</p>
+		<blockquote>
+			<p>
+				<strong>Numerical Data</strong> are the real engine that fuels both thematic maps and indiemapper. All of the map types we offer in indiemapper work with numerical data&ndash;anything that can be counted (e.g., people, barrels of oil) or measured (e.g., temperature, income) makes for great thematic thematic maps. One important issue to consider when using numerical data is whether <a href="http://indiemapper.com/app/learnmore.php?l=standardize" target="_blank">you should standardize your data</a>; this can change what kinds of maps you can (and can't) use.
+			</p>
+			<p>
+				<strong>Nominal Data</strong> are categories that are inherently unorderable, such as <em>dominant religion, soil types</em>, or <em>land-use categories</em>. They have no numbers attached to them, nor are they rankable&ndash;they're merely <em>different kinds of things</em>. Nominal data is currently supported in indiemapper.
+			</p>
+			<p>
+				<strong>Ordinal Data</strong> are inherently <em>orderable categorical data</em> like shirt sizes (s / m / l / xl), flood risk (low risk / medium risk / high risk) or age (young / middle aged / old). In order to use this kind of data in indiemapper you'll need to make sure your categories are number-coded (e.g., indiemapper can't read words, only data expressed as numbers). For example, "low/medium/high" risk zones would need to be coded as "1/2/3" in a second data column (e.g., the DBF file or in the attributes of your KML). Mapping ordinal data is best done with a <a href="http://indiemapper.com/app/learnmore.php?l=choropleth" target="_blank">classed choropleth map</a> with a <a href="http://indiemapper.com/app/learnmore.php?l=color_schemes" target="_blank">sequential color scheme</a>, or as a <a href="http://indiemapper.com/app/learnmore.php?l=proportional_symbols" target="_blank">graduated symbol map</a> in which the number of classes is equal to the number of data categories you have.
+			</p>
+			<p>
+				&nbsp;
+			</p>
+		</blockquote>
+		<hr size="1" noshade>
+		<p>
+			<strong>FURTHER READING</strong>
+		</p>
+		<blockquote>
+			<p>
+				<a href="http://indiemapper.com/app/learnmore.php?l=index">"learn more" Table of Contents</a>
+			</p>
+			<p>
+				<a href="http://getsatisfaction.com/axismaps" target="_blank">indiemapper help</a>
+			</p>
+		</blockquote>
+		<hr size="1" noshade>
+		<p>
+			copyright 2009-2010 Axis Maps LLC. All rights reserved.<br>
+			The material on this site may not be reproduced, distributed, transmitted, or otherwise used, except with the prior permission of <a href="http://axismaps.com" target="_blank">Axis Maps LLC</a>.<br>
+		</p>
+	</body></html>
